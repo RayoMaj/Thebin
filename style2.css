@@ -1,0 +1,20 @@
+body {
+    background-color: rgb(23, 11, 105);
+    margin: 0;
+    padding: 0;
+  }
+  
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 2px;
+    padding: 2px;
+  }
+  
+  .image-grid img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+  }
+  

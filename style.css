@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(205, 187, 226);
+    text-align: center; font-family: Arial, sans-serif;
+    
+}
+
+.may-title {
+    display: block;
+    margin: 20px auto 0; 
+    max-width: 90%;       
+    height: auto;
+  }
+  
+.container {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+
+  #bin {
+    width: 200px;
+    transition: transform 0.8s ease;
+    display: block;
+    margin: 40px auto;
+    cursor: pointer;
+  }
+  
+
+  .camera-link {
+    position: relative;
+    width: 200px;
+    top: 100px; 
+    left: 50%;
+    transform: translateX(-50%);
+    display: none; /*hidden at first*/
+  }
+  
+
+  .camera {
+    width: 50px;
+    position: absolute;
+    top: 100px;
+    transition: top 2s ease;
+  }
+
+ 
+  
